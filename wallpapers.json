@@ -1,775 +1,775 @@
 [
     {
         "name": "Bullet space",
-        "path": "/wallpapers/bullet-space.webp",
+        "path": "./wallpapers/bullet-space.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Sundown over sea",
-        "path": "/wallpapers/sundown-over-sea.webp",
+        "path": "./wallpapers/sundown-over-sea.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Sundown over water",
-        "path": "/wallpapers/sundown-over-water.webp",
+        "path": "./wallpapers/sundown-over-water.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "3d tech",
-        "path": "/wallpapers/3d-tech.webp",
+        "path": "./wallpapers/3d-tech.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Fantasy autumn",
-        "path": "/wallpapers/Fantasy-Autumn.webp",
+        "path": "./wallpapers/Fantasy-Autumn.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Fantasy landscape3",
-        "path": "/wallpapers/Fantasy-Landscape3.webp",
+        "path": "./wallpapers/Fantasy-Landscape3.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Nocturne of steel and glass",
-        "path": "/wallpapers/Nocturne-of-Steel-and-Glass.webp",
+        "path": "./wallpapers/Nocturne-of-Steel-and-Glass.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Solitary glow",
-        "path": "/wallpapers/Solitary-Glow.webp",
+        "path": "./wallpapers/Solitary-Glow.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Space nebula",
-        "path": "/wallpapers/Space-Nebula.webp",
+        "path": "./wallpapers/Space-Nebula.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Adwaita d",
-        "path": "/wallpapers/adwaita-d.webp",
+        "path": "./wallpapers/adwaita-d.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Adwaita l",
-        "path": "/wallpapers/adwaita-l.webp",
+        "path": "./wallpapers/adwaita-l.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Aesthetic deer",
-        "path": "/wallpapers/aesthetic_deer.webp",
+        "path": "./wallpapers/aesthetic_deer.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Apex octane",
-        "path": "/wallpapers/apex_octane.webp",
+        "path": "./wallpapers/apex_octane.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Apple dark",
-        "path": "/wallpapers/apple-dark.webp",
+        "path": "./wallpapers/apple-dark.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Apple light",
-        "path": "/wallpapers/apple-light.webp",
+        "path": "./wallpapers/apple-light.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Apple waves1",
-        "path": "/wallpapers/apple-waves1.webp",
+        "path": "./wallpapers/apple-waves1.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Astronaut jellyfish",
-        "path": "/wallpapers/astronaut_jellyfish.webp",
+        "path": "./wallpapers/astronaut_jellyfish.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Black whole",
-        "path": "/wallpapers/black-whole.webp",
+        "path": "./wallpapers/black-whole.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Bloodrock steppes",
-        "path": "/wallpapers/bloodrock-steppes.webp",
+        "path": "./wallpapers/bloodrock-steppes.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Blue night moon over lake",
-        "path": "/wallpapers/blue_night_moon_over_lake.webp",
+        "path": "./wallpapers/blue_night_moon_over_lake.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Building cyber",
-        "path": "/wallpapers/building_cyber.webp",
+        "path": "./wallpapers/building_cyber.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Calder moore aliencrack 01 copy",
-        "path": "/wallpapers/calder-moore-aliencrack-01-copy.webp",
+        "path": "./wallpapers/calder-moore-aliencrack-01-copy.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Car on mars",
-        "path": "/wallpapers/car_on_mars.webp",
+        "path": "./wallpapers/car_on_mars.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Celebration winter nights",
-        "path": "/wallpapers/celebration-winter-nights.webp",
+        "path": "./wallpapers/celebration-winter-nights.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "City from above",
-        "path": "/wallpapers/city-from-above.webp",
+        "path": "./wallpapers/city-from-above.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "City rain",
-        "path": "/wallpapers/city-rain.webp",
+        "path": "./wallpapers/city-rain.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "City skyline",
-        "path": "/wallpapers/city-skyline.webp",
+        "path": "./wallpapers/city-skyline.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "City bridge",
-        "path": "/wallpapers/city_bridge.webp",
+        "path": "./wallpapers/city_bridge.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "City top view",
-        "path": "/wallpapers/city_top_view.webp",
+        "path": "./wallpapers/city_top_view.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Comet",
-        "path": "/wallpapers/comet.webp",
+        "path": "./wallpapers/comet.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Copper mountain",
-        "path": "/wallpapers/copper_mountain.webp",
+        "path": "./wallpapers/copper_mountain.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Corndog",
-        "path": "/wallpapers/corndog.webp",
+        "path": "./wallpapers/corndog.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Cyber",
-        "path": "/wallpapers/cyber.webp",
+        "path": "./wallpapers/cyber.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Dark star",
-        "path": "/wallpapers/dark-star.webp",
+        "path": "./wallpapers/dark-star.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Dark waves",
-        "path": "/wallpapers/dark-waves.webp",
+        "path": "./wallpapers/dark-waves.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Deer and sunset",
-        "path": "/wallpapers/deer_and_sunset.webp",
+        "path": "./wallpapers/deer_and_sunset.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Deer in pine forest",
-        "path": "/wallpapers/deer_in_pine_forest.webp",
+        "path": "./wallpapers/deer_in_pine_forest.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Default",
-        "path": "/wallpapers/default.webp",
+        "path": "./wallpapers/default.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Dunes sun",
-        "path": "/wallpapers/dunes-sun.webp",
+        "path": "./wallpapers/dunes-sun.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Earth from moon",
-        "path": "/wallpapers/earth-from-moon.webp",
+        "path": "./wallpapers/earth-from-moon.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Escape velocity",
-        "path": "/wallpapers/escape_velocity.webp",
+        "path": "./wallpapers/escape_velocity.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Evening landscape",
-        "path": "/wallpapers/evening-landscape.webp",
+        "path": "./wallpapers/evening-landscape.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Expanse",
-        "path": "/wallpapers/expanse.webp",
+        "path": "./wallpapers/expanse.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Explorer robot",
-        "path": "/wallpapers/explorer-robot.webp",
+        "path": "./wallpapers/explorer-robot.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Explorer green day",
-        "path": "/wallpapers/explorer_green_day.webp",
+        "path": "./wallpapers/explorer_green_day.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Explorer orange sunset",
-        "path": "/wallpapers/explorer_orange_sunset.webp",
+        "path": "./wallpapers/explorer_orange_sunset.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Fish 2",
-        "path": "/wallpapers/fish_2.webp",
+        "path": "./wallpapers/fish_2.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Forest landscape",
-        "path": "/wallpapers/forest-landscape.webp",
+        "path": "./wallpapers/forest-landscape.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Gdtography",
-        "path": "/wallpapers/gdtography.webp",
+        "path": "./wallpapers/gdtography.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Glowing green dew",
-        "path": "/wallpapers/glowing-green-dew.webp",
+        "path": "./wallpapers/glowing-green-dew.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Green sea",
-        "path": "/wallpapers/green_sea.webp",
+        "path": "./wallpapers/green_sea.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Groot 1",
-        "path": "/wallpapers/groot_1.webp",
+        "path": "./wallpapers/groot_1.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Headphones paint color splash",
-        "path": "/wallpapers/headphones-paint-color-splash.webp",
+        "path": "./wallpapers/headphones-paint-color-splash.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Highlands grid",
-        "path": "/wallpapers/highlands-grid.webp",
+        "path": "./wallpapers/highlands-grid.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Honkadaloonga",
-        "path": "/wallpapers/honkadaloonga.webp",
+        "path": "./wallpapers/honkadaloonga.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Hyprland",
-        "path": "/wallpapers/hyprland.webp",
+        "path": "./wallpapers/hyprland.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Italy",
-        "path": "/wallpapers/italy.webp",
+        "path": "./wallpapers/italy.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Kath",
-        "path": "/wallpapers/kath.webp",
+        "path": "./wallpapers/kath.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Landscape abstract neon",
-        "path": "/wallpapers/landscape-abstract-neon.webp",
+        "path": "./wallpapers/landscape-abstract-neon.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Landscape",
-        "path": "/wallpapers/landscape.webp",
+        "path": "./wallpapers/landscape.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Lion galaxy purple",
-        "path": "/wallpapers/lion_galaxy_purple.webp",
+        "path": "./wallpapers/lion_galaxy_purple.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Liquid1",
-        "path": "/wallpapers/liquid1.webp",
+        "path": "./wallpapers/liquid1.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Liquid2",
-        "path": "/wallpapers/liquid2.webp",
+        "path": "./wallpapers/liquid2.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Lofoten sundown",
-        "path": "/wallpapers/lofoten-sundown.webp",
+        "path": "./wallpapers/lofoten-sundown.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Lofoten1",
-        "path": "/wallpapers/lofoten1.webp",
+        "path": "./wallpapers/lofoten1.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Lofoten2",
-        "path": "/wallpapers/lofoten2.webp",
+        "path": "./wallpapers/lofoten2.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Marina bay sands",
-        "path": "/wallpapers/marina-bay-sands.webp",
+        "path": "./wallpapers/marina-bay-sands.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Midnight reflections moonlit sea",
-        "path": "/wallpapers/midnight-reflections-moonlit-sea.webp",
+        "path": "./wallpapers/midnight-reflections-moonlit-sea.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Miracleos dark",
-        "path": "/wallpapers/miracleOS_dark.webp",
+        "path": "./wallpapers/miracleOS_dark.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Miracleos light",
-        "path": "/wallpapers/miracleOS_light.webp",
+        "path": "./wallpapers/miracleOS_light.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Moonlight",
-        "path": "/wallpapers/moonlight.webp",
+        "path": "./wallpapers/moonlight.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Mountain lake",
-        "path": "/wallpapers/mountain-lake.webp",
+        "path": "./wallpapers/mountain-lake.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Mountain sunrise",
-        "path": "/wallpapers/mountain-sunrise.webp",
+        "path": "./wallpapers/mountain-sunrise.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Mountain winter sun",
-        "path": "/wallpapers/mountain-winter-sun.webp",
+        "path": "./wallpapers/mountain-winter-sun.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Mountain winter1",
-        "path": "/wallpapers/mountain-winter1.webp",
+        "path": "./wallpapers/mountain-winter1.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Mountain winter3",
-        "path": "/wallpapers/mountain-winter3.webp",
+        "path": "./wallpapers/mountain-winter3.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Mountain",
-        "path": "/wallpapers/mountain.webp",
+        "path": "./wallpapers/mountain.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Mountain view",
-        "path": "/wallpapers/mountain_view.webp",
+        "path": "./wallpapers/mountain_view.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Mountains with sky",
-        "path": "/wallpapers/mountains-with-sky.webp",
+        "path": "./wallpapers/mountains-with-sky.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Muscle car ice road red moon",
-        "path": "/wallpapers/muscle-car-ice-road-red-moon.webp",
+        "path": "./wallpapers/muscle-car-ice-road-red-moon.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Mystical night in town",
-        "path": "/wallpapers/mystical-night-in-town.webp",
+        "path": "./wallpapers/mystical-night-in-town.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Nature",
-        "path": "/wallpapers/nature.webp",
+        "path": "./wallpapers/nature.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Natures mountain waters",
-        "path": "/wallpapers/natures-mountain-waters.webp",
+        "path": "./wallpapers/natures-mountain-waters.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Neon car",
-        "path": "/wallpapers/neon_car.webp",
+        "path": "./wallpapers/neon_car.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Neon city",
-        "path": "/wallpapers/neon_city.webp",
+        "path": "./wallpapers/neon_city.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Neon office",
-        "path": "/wallpapers/neon_office.webp",
+        "path": "./wallpapers/neon_office.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Night city",
-        "path": "/wallpapers/night_city.webp",
+        "path": "./wallpapers/night_city.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "No mans land",
-        "path": "/wallpapers/no-mans-land.webp",
+        "path": "./wallpapers/no-mans-land.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Nordwall2",
-        "path": "/wallpapers/nordwall2.webp",
+        "path": "./wallpapers/nordwall2.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Nordwall3",
-        "path": "/wallpapers/nordwall3.webp",
+        "path": "./wallpapers/nordwall3.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Northern night",
-        "path": "/wallpapers/northern-night.webp",
+        "path": "./wallpapers/northern-night.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Onyx flow",
-        "path": "/wallpapers/onyx-flow.webp",
+        "path": "./wallpapers/onyx-flow.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Orange desert",
-        "path": "/wallpapers/orange-desert.webp",
+        "path": "./wallpapers/orange-desert.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Pitstop",
-        "path": "/wallpapers/pitstop.webp",
+        "path": "./wallpapers/pitstop.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Pitstop2",
-        "path": "/wallpapers/pitstop2.webp",
+        "path": "./wallpapers/pitstop2.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Plasmawaves",
-        "path": "/wallpapers/plasmawaves.webp",
+        "path": "./wallpapers/plasmawaves.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Priyanuch konkaew unsplash",
-        "path": "/wallpapers/priyanuch_konkaew_unsplash.webp",
+        "path": "./wallpapers/priyanuch_konkaew_unsplash.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Retro truck",
-        "path": "/wallpapers/retro-truck.webp",
+        "path": "./wallpapers/retro-truck.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "River to castle theme blue",
-        "path": "/wallpapers/river_to_castle_theme_blue.webp",
+        "path": "./wallpapers/river_to_castle_theme_blue.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Robot home",
-        "path": "/wallpapers/robot-home.webp",
+        "path": "./wallpapers/robot-home.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Rocket launch",
-        "path": "/wallpapers/rocket_launch.webp",
+        "path": "./wallpapers/rocket_launch.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Rocky land",
-        "path": "/wallpapers/rocky_land.webp",
+        "path": "./wallpapers/rocky_land.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Snowy peace",
-        "path": "/wallpapers/snowy-peace.webp",
+        "path": "./wallpapers/snowy-peace.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Space bullet",
-        "path": "/wallpapers/space-bullet.webp",
+        "path": "./wallpapers/space-bullet.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Spaceship start",
-        "path": "/wallpapers/spaceship-start.webp",
+        "path": "./wallpapers/spaceship-start.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Spaceship1",
-        "path": "/wallpapers/spaceship1.webp",
+        "path": "./wallpapers/spaceship1.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Spaceship2",
-        "path": "/wallpapers/spaceship2.webp",
+        "path": "./wallpapers/spaceship2.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Spaceshuttle",
-        "path": "/wallpapers/spaceshuttle.webp",
+        "path": "./wallpapers/spaceshuttle.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Sunset 01",
-        "path": "/wallpapers/sunset-01.webp",
+        "path": "./wallpapers/sunset-01.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Sunset 10",
-        "path": "/wallpapers/sunset-10.webp",
+        "path": "./wallpapers/sunset-10.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Sunset drive forest",
-        "path": "/wallpapers/sunset-drive-forest.webp",
+        "path": "./wallpapers/sunset-drive-forest.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Sunset in thick forest",
-        "path": "/wallpapers/sunset-in-thick-forest.webp",
+        "path": "./wallpapers/sunset-in-thick-forest.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Sunset lookout",
-        "path": "/wallpapers/sunset-lookout.webp",
+        "path": "./wallpapers/sunset-lookout.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Sunset mountain beautiful",
-        "path": "/wallpapers/sunset-mountain-beautiful.webp",
+        "path": "./wallpapers/sunset-mountain-beautiful.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Technical",
-        "path": "/wallpapers/technical.webp",
+        "path": "./wallpapers/technical.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "The snap hunt camping",
-        "path": "/wallpapers/the-snap-hunt-camping.webp",
+        "path": "./wallpapers/the-snap-hunt-camping.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "The sphere",
-        "path": "/wallpapers/the-sphere.webp",
+        "path": "./wallpapers/the-sphere.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "The sphere2",
-        "path": "/wallpapers/the-sphere2.webp",
+        "path": "./wallpapers/the-sphere2.webp",
         "style": "light",
         "video": "https://www.youtube.com/embed/9HcjlZrroAs"
     },
     {
         "name": "Tree",
-        "path": "/wallpapers/tree.webp",
+        "path": "./wallpapers/tree.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Tron legacy1",
-        "path": "/wallpapers/tron_legacy1.webp",
+        "path": "./wallpapers/tron_legacy1.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Tron legacy2",
-        "path": "/wallpapers/tron_legacy2.webp",
+        "path": "./wallpapers/tron_legacy2.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Tron legacy4",
-        "path": "/wallpapers/tron_legacy4.webp",
+        "path": "./wallpapers/tron_legacy4.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Tron legacy5",
-        "path": "/wallpapers/tron_legacy5.webp",
+        "path": "./wallpapers/tron_legacy5.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Tron legacy6",
-        "path": "/wallpapers/tron_legacy6.webp",
+        "path": "./wallpapers/tron_legacy6.webp",
         "style": "dark",
         "video": "https://www.youtube.com/embed/vIBKSmWAdIA"
     },
     {
         "name": "Wallhaven1",
-        "path": "/wallpapers/wallhaven1.webp",
+        "path": "./wallpapers/wallhaven1.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Wallhaven3",
-        "path": "/wallpapers/wallhaven3.webp",
+        "path": "./wallpapers/wallhaven3.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Wallhaven4",
-        "path": "/wallpapers/wallhaven4.webp",
+        "path": "./wallpapers/wallhaven4.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Watchtower mountains and forests",
-        "path": "/wallpapers/watchtower-mountains-and-forests.webp",
+        "path": "./wallpapers/watchtower-mountains-and-forests.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     },
     {
         "name": "Winter is here",
-        "path": "/wallpapers/winter-is-here.webp",
+        "path": "./wallpapers/winter-is-here.webp",
         "style": "midnight",
         "video": "https://www.youtube.com/embed/6BaeHKM8q18"
     }

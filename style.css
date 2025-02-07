@@ -42,7 +42,7 @@ nav ul li.active {
 }
 
 .hero {
-    background-image: url("/imagenes/hero.jpg");
+    background-image: url("./imagenes/hero.jpg");
     background-size: cover;
     color: white;
     height: 200px;
