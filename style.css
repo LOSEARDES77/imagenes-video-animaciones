@@ -9,11 +9,17 @@ body {
     background-color: #333;
 }
 
+aside {
+    position: sticky;
+    top: 0;
+}
+
 nav {
     color: white;
     text-align: center;
     padding: 10px 0;
     background-color: #555;
+
 }
 
 nav ul {
@@ -21,24 +27,25 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
     padding: 5px 10px;
+    transition: all 0.3s ease-in-out,
+        scale 0.15s ease;
+    cursor: pointer;
+}
+
+ul li:hover,
+ul li.active {
+    scale: 1.1;
     border-radius: 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li:hover,
-nav ul li.active {
     background-color: #333;
     color: rgb(134, 156, 255);
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
     text-decoration: underline;
+}
+
+ul li:active {
+    scale: 1.2;
 }
 
 .hero {
@@ -69,15 +76,33 @@ nav ul li.active {
     height: 200px;
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 848px) {
     .img-container {
         width: calc(((100% - 10px) / 2) - 20px);
     }
 }
 
+nav div.burguer {
+    display: none;
+    cursor: pointer;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 20px;
+}
+
 @media (max-width: 500px) {
     .img-container {
         width: calc(100% - 20px);
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav div.burguer {
+        display: block;
     }
 }
 
@@ -225,5 +250,40 @@ img:hover {
 
     to {
         opacity: 0;
+    }
+}
+
+.img-active {
+    animation: rotation_initial 400ms linear, imgSlideUp 400ms forwards;
+}
+
+@keyframes imgSlideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes rotation_initial {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-45deg);
+    }
+
+    75% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
     }
 }

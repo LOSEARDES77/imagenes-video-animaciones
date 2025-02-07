@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     $.getJSON("wallpapers.json", function (data) {
         $.each(data, function (index, img) {
-            $("#galeria").append(`<div class="img-container video-link ${img.style}" video-data="${img.video}">
+            $("#galeria").append(`<div class="img-container img-active video-link ${img.style}" video-data="${img.video}">
                 <img src="${img.path}" alt="${img.name}" title="${img.name}" loading="lazy">
             </div>`);
         });
@@ -20,11 +20,16 @@ $(document).ready(function () {
 
     function applyFilter(filterClass) {
         $("#galeria div.img-container").each(function () {
-            if ($(this).hasClass(filterClass)) {
+            $(this).removeClass("img-active");
+        });
+        $("#galeria div.img-container").each(function () {
+            if ($(this).hasClass(filterClass ?? "")) {
                 $(this).show();
+                $(this).addClass("img-active");
                 filterActive = true;
             } else {
                 $(this).hide();
+                $(this).removeClass("img-active");
             }
         });
     }
@@ -32,12 +37,8 @@ $(document).ready(function () {
     $("#light-images").on("click", function () { applyFilter("light"); });
     $("#dark-images").on("click", function () { applyFilter("dark"); });
     $("#midnight-images").on("click", function () { applyFilter("midnight"); });
-
-    $("#reset").on("click", function () {
-        $("#galeria div.img-container").each(function () {
-            $(this).show();
-        });
-        $(".nav-elem").removeClass("active");
+    $("#all-images").on("click", function () {
+        applyFilter("img-container");
         filterActive = false;
     });
 
@@ -59,7 +60,7 @@ $(document).ready(function () {
                         referrerpolicy="strict-origin-when-cross-origin"
                         allowfullscreen>
                         </iframe>
-                        <button id="close-popup">X</button>
+                        <button id="close-popup">&times;</button>
                     </div>
                 </div>
             `);
@@ -83,6 +84,10 @@ $(document).ready(function () {
         if (e.key !== "Escape") return;
         closePopup();
 
+    });
+
+    $(document).on("click", "nav div.burguer", function (e) {
+        $("nav ul").toggle();
     });
 
 });
