@@ -8,9 +8,9 @@
   - [x] Cuando el ratón pasa por encima de ellos.
   - [x] Cuando se hace click en ellos.
 - Cuando se haga click en uno de los elementos del aside:
-  - [ ] Algunas imágenes deben mostrar animaciones (con cada elemento imágenes distintas).
-  - [ ] En caso de que hubiera otras imágenes seleccionadas, deben desaparecer.
-  - [ ] La relación entre las imágenes y los elementos debe venir indicada en un archivo JSON.
+  - [x] Algunas imágenes deben mostrar animaciones (con cada elemento imágenes distintas).
+  - [x] En caso de que hubiera otras imágenes seleccionadas, deben desaparecer.
+  - [x] La relación entre las imágenes y los elementos debe venir indicada en un archivo JSON.
 - Cuando alguna imagen haya sido seleccionada por un elemento:
   - [x] Debe permitir hacer clic sobre ella y que aparezca un video, mediante una animación.
   - [x] El video debe estar relacionado con la imagen mediante el archivo JSON.
