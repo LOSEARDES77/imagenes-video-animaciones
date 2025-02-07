@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #333;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #555;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover,
+nav ul li.active {
+    background-color: #333;
+    color: rgb(134, 156, 255);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url("/imagenes/hero.jpg");
+    background-size: cover;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#galeria {
+    padding: 20px;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+
+}
+
+.img-container {
+    width: calc(((100% - 10px) / 4) - 20px);
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+    .img-container {
+        width: calc(((100% - 10px) / 2) - 20px);
+    }
+}
+
+@media (max-width: 500px) {
+    .img-container {
+        width: calc(100% - 20px);
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+img:hover {
+    /* Estilo General por defecto */
+    transform: scale(1.05);
+    /* Safari, Chrome, Opera*/
+    -webkit-transform: scale(1.05);
+    /* Firefox */
+    -moz-transform: scale(1.05);
+    /* Microsoft Edge, IE */
+    -ms-transform: scale(1.05);
+    /* Opera */
+    -o-transform: scale(1.05);
+
+    filter: brightness(125%);
+    transition: transform 0.3s ease-in-out;
+
+    /* transform-origin: center center; */
+    /* will-change: transform; */
+}
+
+
+
+/* Overlay del video */
+.video-overlay {
+    /* Zona de fuera del vido para detectar clicks y errar el video */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9998;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+/* Contenedor para el video */
+.video-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 800px;
+    background: #000;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    opacity: 0;
+    animation: slideUp 0.4s forwards;
+}
+
+/* El video en si */
+.video-container iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+/* Boton para cerrar el video */
+#close-popup {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 10000;
+}
+
+#close-popup:hover {
+    background: red;
+    color: white;
+}
+
+/* Video responsivo */
+@media (max-width: 768px) {
+    .video-container {
+        width: 90%;
+    }
+
+    .video-container iframe {
+        height: 300px;
+    }
+}
+
+/* Animaciones para el video */
+
+/* Animación de entrada */
+@keyframes slideUp {
+    from {
+        transform: translate(-50%, 100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+
+/* Animación de salida */
+@keyframes slideDown {
+    from {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translate(-50%, 100%);
+        opacity: 0;
+    }
+}
+
+/* Animación para el fondo */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
