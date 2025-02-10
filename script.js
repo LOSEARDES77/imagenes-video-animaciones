@@ -86,8 +86,16 @@ $(document).ready(function () {
 
     });
 
+    // Toggle hamburger menu
     $(document).on("click", "nav div.burguer", function (e) {
-        $("nav ul").toggle();
+        $("#hamburger-menu").toggleClass("menu-visible menu-hidden");
+    });
+
+    // Close the menu when clicking outside of it
+    $(document).on("click", function (e) {
+        if (!$(e.target).closest("#hamburger-menu, nav div.burguer").length) {
+            $("#hamburger-menu").addClass("menu-hidden").removeClass("menu-visible");
+        }
     });
 
 });
