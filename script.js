@@ -19,6 +19,9 @@ $(document).ready(function () {
     });
 
     function applyFilter(filterClass) {
+
+        $("#hamburger-menu").addClass("menu-hidden").removeClass("menu-visible");
+
         $("#galeria div.img-container").each(function () {
             $(this).removeClass("img-active");
         });
@@ -41,6 +44,21 @@ $(document).ready(function () {
         applyFilter("img-container");
         filterActive = false;
     });
+
+    // Menu hamburguesa
+    $("#hb-light-images").on("click", function () { applyFilter("light"); });
+    $("#hb-dark-images").on("click", function () { applyFilter("dark"); });
+    $("#hb-midnight-images").on("click", function () { applyFilter("midnight"); });
+    $("#hb-all-images").on("click", function () {
+        applyFilter("img-container");
+        filterActive = false;
+    });
+
+    $("#hb-close").on("click", function () {
+        $("#hamburger-menu").addClass("menu-hidden").removeClass("menu-visible");
+    })
+
+
 
     // Evitar el evento por defecto de la etiqueta "a" y mostrar el video en un popup
     $(document).on("click", ".video-link", function (e) {
@@ -89,13 +107,7 @@ $(document).ready(function () {
     // Toggle hamburger menu
     $(document).on("click", "nav div.burguer", function (e) {
         $("#hamburger-menu").toggleClass("menu-visible menu-hidden");
-    });
 
-    // Close the menu when clicking outside of it
-    $(document).on("click", function (e) {
-        if (!$(e.target).closest("#hamburger-menu, nav div.burguer").length) {
-            $("#hamburger-menu").addClass("menu-hidden").removeClass("menu-visible");
-        }
     });
 
 });

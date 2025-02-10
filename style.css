@@ -314,10 +314,10 @@ img:hover {
     font-size: 24px;
 }
 
-.menu-visible {
+#hamburger-menu.menu-visible {
     left: 0;
 }
 
-.menu-hidden {
+#hamburger-menu.menu-hidden {
     left: -100%;
 }
