@@ -1,15 +1,35 @@
-$(document).ready(function () {
-    let filterActive = false;
 
+
+
+
+$(document).ready(function () {
     $.getJSON("wallpapers.json", function (data) {
         $.each(data, function (index, img) {
             $("#galeria").append(`<div class="img-container img-active video-link ${img.style}" video-data="${img.video}">
-                <img src="${img.path}" alt="${img.name}" title="${img.name}" loading="lazy">
+                <div class="loader"></div>
+                <img src="${img.path}" alt="${img.name}" title="${img.name}">
             </div>`);
         });
+        var imgs = document.querySelectorAll('#galeria img')
+
+        function loaded() {
+            const loader = this.previousElementSibling;
+            loader.style.display = 'none';
+            this.style.display = 'block';
+        }
+        imgs.forEach((img) => {
+            if (img.complete) {
+                loaded()
+            } else {
+                img.addEventListener('load', loaded)
+            }
+        })
+        // Hide loader when image is fully loaded
     }).fail(function () {
         console.error("Error al cargar el JSON.");
     });
+
+    let filterActive = false;
 
     $(".nav-elem").each(function () {
         $(this).on("click", function () {
