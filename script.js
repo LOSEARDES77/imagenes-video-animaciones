@@ -5,7 +5,7 @@
 $(document).ready(function () {
     $.getJSON("wallpapers.json", function (data) {
         $.each(data, function (index, img) {
-            $("#galeria").append(`<div class="img-container img-active video-link ${img.style}" video-data="${img.video}">
+            $("#galeria").append(`<div class="img-container video-link ${img.style}" video-data="${img.video}">
                 <div class="loader"></div>
                 <img src="${img.path}" alt="${img.name}" title="${img.name}">
             </div>`);
@@ -29,8 +29,6 @@ $(document).ready(function () {
         console.error("Error al cargar el JSON.");
     });
 
-    let filterActive = false;
-
     $(".nav-elem").each(function () {
         $(this).on("click", function () {
             $(".nav-elem").removeClass("active");
@@ -47,11 +45,8 @@ $(document).ready(function () {
         });
         $("#galeria div.img-container").each(function () {
             if ($(this).hasClass(filterClass ?? "")) {
-                $(this).show();
                 $(this).addClass("img-active");
-                filterActive = true;
             } else {
-                $(this).hide();
                 $(this).removeClass("img-active");
             }
         });
@@ -61,8 +56,11 @@ $(document).ready(function () {
     $("#dark-images").on("click", function () { applyFilter("dark"); });
     $("#midnight-images").on("click", function () { applyFilter("midnight"); });
     $("#all-images").on("click", function () {
-        applyFilter("img-container");
-        filterActive = false;
+        $("#hamburger-menu").addClass("menu-hidden").removeClass("menu-visible");
+
+        $("#galeria div.img-container").each(function () {
+            $(this).removeClass("img-active");
+        });
     });
 
     // Menu hamburguesa
@@ -70,8 +68,11 @@ $(document).ready(function () {
     $("#hb-dark-images").on("click", function () { applyFilter("dark"); });
     $("#hb-midnight-images").on("click", function () { applyFilter("midnight"); });
     $("#hb-all-images").on("click", function () {
-        applyFilter("img-container");
-        filterActive = false;
+        $("#hamburger-menu").addClass("menu-hidden").removeClass("menu-visible");
+
+        $("#galeria div.img-container").each(function () {
+            $(this).removeClass("img-active");
+        });
     });
 
     $("#hb-close").on("click", function () {
@@ -81,13 +82,11 @@ $(document).ready(function () {
 
 
     // Evitar el evento por defecto de la etiqueta "a" y mostrar el video en un popup
-    $(document).on("click", ".video-link", function (e) {
-        if (!filterActive) {
-            e.preventDefault();
-        } else {
-            e.preventDefault();
-            const videoUrl = $(this).attr("video-data");
-            $("body").append(`
+    $(document).on("click", ".img-active.video-link", function (e) {
+
+        e.preventDefault();
+        const videoUrl = $(this).attr("video-data");
+        $("body").append(`
                 <div id="video-popup">
                     <div class="video-overlay"></div>
                     <div class="video-container">
@@ -102,7 +101,7 @@ $(document).ready(function () {
                     </div>
                 </div>
             `);
-        }
+
     });
 
     function closePopup() {

@@ -12,6 +12,7 @@ body {
 aside {
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -67,14 +68,13 @@ ul li:active {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-
-
 }
 
 .img-container {
     position: relative;
     width: calc(((100% - 10px) / 4) - 20px);
     height: 200px;
+    z-index: 100;
 }
 
 @media (max-width: 848px) {
@@ -253,37 +253,19 @@ img:hover {
 }
 
 .img-active {
-    animation: imgSlideUp 400ms forwards;
+    animation: shake 0.5s infinite ease-in-out alternate;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
 }
 
-@keyframes imgSlideUp {
+
+@keyframes shake {
     from {
-        transform: translateY(100%);
-        opacity: 0;
+        transform: scale(1.5);
     }
 
     to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-
-@keyframes rotation_initial {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(-45deg);
-    }
-
-    75% {
-        transform: rotate(45deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
+        transform: scale(0.75);
     }
 }
 
