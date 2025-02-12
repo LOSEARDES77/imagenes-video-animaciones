@@ -6,16 +6,27 @@ $(document).ready(function () {
     $.getJSON("wallpapers.json", function (data) {
         $.each(data, function (index, img) {
             $("#galeria").append(`<div class="img-container video-link ${img.style}" video-data="${img.video}">
-                <div class="loader"></div>
+                <div class="loader">
+                    <div class="spinner">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
                 <img style="display: none" src="${img.path}" alt="${img.name}" title="${img.name}">
             </div>`);
         });
         var imgs = document.querySelectorAll('#galeria img')
 
         function loaded() {
-            const loader = this.previousElementSibling;
-            loader.style.display = 'none';
-            this.style.display = 'block';
+            setTimeout(() => {
+                const loader = this.previousElementSibling;
+                loader.style.display = 'none';
+                this.style.display = 'block';
+            }, 500)
         }
         imgs.forEach((img) => {
             if (img.complete) {
