@@ -16,7 +16,7 @@ $(document).ready(function () {
                         <div></div>
                     </div>
                 </div>
-                <img style="display: none" src="${img.path}" alt="${img.name}" title="${img.name}">
+                <img style="display: none" src="${img.path}" alt="${img.name}" title="${img.name}" loading="lazy">
             </div>`);
         });
         var imgs = document.querySelectorAll('#galeria img')
@@ -26,7 +26,7 @@ $(document).ready(function () {
                 const loader = this.previousElementSibling;
                 loader.style.display = 'none';
                 this.style.display = 'block';
-            }, 500)
+            }, 100)
         }
         imgs.forEach((img) => {
             if (img.complete) {
