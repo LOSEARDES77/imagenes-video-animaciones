@@ -7,7 +7,7 @@ $(document).ready(function () {
         $.each(data, function (index, img) {
             $("#galeria").append(`<div class="img-container video-link ${img.style}" video-data="${img.video}">
                 <div class="loader"></div>
-                <img src="${img.path}" alt="${img.name}" title="${img.name}">
+                <img style="display: none" src="${img.path}" alt="${img.name}" title="${img.name}">
             </div>`);
         });
         var imgs = document.querySelectorAll('#galeria img')
