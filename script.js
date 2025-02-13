@@ -6,7 +6,7 @@ $(document).ready(function () {
     $.getJSON("wallpapers.json", function (data) {
         $.each(data, function (index, img) {
             $("#galeria").append(`<div class="img-container video-link ${img.style}" video-data="${img.video}">
-                <div class="loader">
+                <div style="display: flex" class="loader" id="loader-${index}">
                     <div class="spinner">
                         <div></div>
                         <div></div>
@@ -16,25 +16,30 @@ $(document).ready(function () {
                         <div></div>
                     </div>
                 </div>
-                <img style="display: none" src="${img.path}" alt="${img.name}" title="${img.name}" loading="lazy">
+                <img style="display: none" loader-idx="${index}" src="${img.path}" alt="${img.name}" title="${img.name}"/>
             </div>`);
         });
-        var imgs = document.querySelectorAll('#galeria img')
+        var imgs = document.querySelectorAll('#galeria .img-container img');
 
         function loaded() {
-            setTimeout(() => {
-                const loader = this.previousElementSibling;
-                loader.style.display = 'none';
-                this.style.display = 'block';
-            }, 100)
+            const loaderIdx = this.getAttribute("loader-idx");
+            const loader = document.getElementById("loader-" + loaderIdx);
+
+            if (loader) {
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                    this.style.display = 'block';
+                }, 100)
+            }
         }
+
         imgs.forEach((img) => {
             if (img.complete) {
-                loaded()
+                loaded.call(img);
             } else {
-                img.addEventListener('load', loaded)
+                img.addEventListener('load', loaded);
             }
-        })
+        });
         // Hide loader when image is fully loaded
     }).fail(function () {
         console.error("Error al cargar el JSON.");
