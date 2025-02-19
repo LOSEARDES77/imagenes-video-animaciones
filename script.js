@@ -114,7 +114,8 @@ $(document).ready(function () {
                         allowfullscreen>
                         </iframe>
                         <button id="close-popup">&times;</button>
-                    </div>
+                        </div>
+                        <p id="video-footer">Presiona ESC para cerrar el video o toca fuera de el</p>
                 </div>
             `);
 
